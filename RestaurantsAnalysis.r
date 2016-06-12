@@ -2,7 +2,7 @@ library(fields)
 library(ggmap)
 require(gplots)
 
-#Restaurants Cluster Analysis
+#Restaurants Analysis
 odd<-read.csv("~/OrdersData.csv")
 restaurants<-data.frame(odd$pickup_longitude, odd$pickup_latitude)
 colnames(restaurants)<-c("lon", "lat")
