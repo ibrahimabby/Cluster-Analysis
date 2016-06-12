@@ -3,7 +3,7 @@ library(ggmap)
 require(gplots)
 
 #Rider Analysis
-ld<-read.csv("G:/Shadowfox/DATA_NEW/LocationData.csv")
+ld<-read.csv("~/LocationData.csv")
 
 rawdata1 <- data.frame(as.numeric(ld$latitude), as.numeric(ld$longitude))
 head(rawdata1)
